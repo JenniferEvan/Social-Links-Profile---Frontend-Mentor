@@ -1,0 +1,122 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*Centralizando*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--grey-900);
+
+}
+
+.card {
+    background-color: var(--grey-800);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 375px;
+    height: auto;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+.foto{
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+
+}
+
+section{
+    display: block;
+    text-align: center;
+}
+
+section h1{
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 5px;
+}
+
+section span{
+    color: var(--green);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 5px;
+}
+
+section p{
+    color: var(--white);
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 20px 5px 25px 5px;
+}
+
+.menus ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menus{
+    width: 100%;
+}
+
+.menus ul li a {
+    text-decoration: none;
+    color: var(--white); 
+    background-color: var(--grey-700);
+    display: block; 
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.3s; 
+}
+
+.menus ul li a:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
