@@ -23,14 +23,17 @@ Os usuários devem ser capazes de:
 - Ver um layout responsivo que se adapta a diferentes tamanhos de tela.
 
 ### Screenshot
+DESKTOP
+![Screenshot da minha solução desktop](/assets/images/social-links-profile-frontend-mento.vercel.app_.png)
 
-![Screenshot da minha solução](./assets/images/screenshot-projeto.png)
+MOBILE
+![Screenshot da minha solução mobile](/assets/images/social-links-profile-frontend-mento.vercel.app_(iPhone%2014%20Pro%20Max).png)
 
 
 ### Links
 
-- URL da Solução: [https://github.com/JenniferEvan/social-links-profile](https://github.com/JenniferEvan/social-links-profile)
-- URL do Site ao Vivo: [https://jenniferevan.github.io/social-links-profile/](https://jenniferevan.github.io/social-links-profile/)
+- URL da Solução: [https://github.com/JenniferEvan/Social-Links-Profile---Frontend-Mentor](https://github.com/JenniferEvan/Social-Links-Profile---Frontend-Mentor)
+- URL do Site ao Vivo: [https://social-links-profile-frontend-mento.vercel.app/](https://social-links-profile-frontend-mento.vercel.app/)
 
 ## Meu processo
 
@@ -66,7 +69,6 @@ Exemplo de código que gostei de fazer:
 Desenvolvimento contínuo
 Pretendo continuar explorando o uso de Flexbox e Grid para layouts mais complexos e aprimorar meus conhecimentos em acessibilidade web.
 
-Autor
-GuitHub - Jennifer Evangelista
-
-Frontend Mentor - @JenniferEvan
+## Autor
+- GitHub: [Jennifer Evangelista](https://github.com/JenniferEvan)
+- Frontend Mentor: [@JenniferEvan](https://www.frontendmentor.io/profile/JenniferEvan)
